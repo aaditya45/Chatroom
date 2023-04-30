@@ -1,3 +1,4 @@
+#Python Chatroom GUI App
 This is a simple chat application built in Python using the socket library. The application consists of a server that listens to incoming connections from multiple clients, and a client that connects to the server and allows the user to send and receive messages.
 <br>
 The server listens to incoming connections on port 9090. When a new client connects, the server sends a "NICK" message to the client, prompting the client to enter a nickname. Once the client enters a nickname, the server broadcasts a message to all connected clients that a new user has joined the chat.
